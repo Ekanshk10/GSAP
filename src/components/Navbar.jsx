@@ -9,12 +9,12 @@ const Navbar = () => {
       scrollTrigger: {
         trigger: "nav",
         start: "bottom top",
-        // markers: true,
+        // markers: true;
       },
     });
     navTween.fromTo(
-      "nav",
-      {
+      "nav", 
+       {
         backgroundColor: "transparent",
       },
       {
